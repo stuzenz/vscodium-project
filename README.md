@@ -1,8 +1,6 @@
+# nix-vscode-extensions and my selection of extensions
 
-# How to add the flake in this repo to your NixOS configuration
-
-
-This was kind of tricky - hence these instructions. 
+Instructions to integrate the flake.nix in this project into your own NixOS flake.nix and configuration.nix files
 
 The ability to build this is all thanks to this project
 https://github.com/nix-community/nix-vscode-extensions
@@ -10,10 +8,16 @@ https://github.com/nix-community/nix-vscode-extensions
 
 ## Objective
 
-Have access to all vs code extensions. 
+My objective is to have access to all vs code extensions from within NixOS. Mainly because I am a big fan of cody from Sourcegraph. 
 
-To meet this goal I have used the above project. 
-Integrating a local flake into your NixOS configuration is not that straightforward - so I have copied snippets of my configuration files here to show the changes made.
+There is only a subset of the vscode extensions are available via nix pkgs. This approach bypasses that limitation.
+ 
+Integrating a local flake into your NixOS configuration is not that straightforward - so I have copied snippets of my NixOS configuration files here to show the changes I made.
+
+## Trade offs
+
+My normal vs code is done with lots of options via home-manager. In this case I cannot use those home-manager options. If I want to have a declarative set up for a special set up it is still possible through
+
 
 The key changes are:
 
