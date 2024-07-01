@@ -18,6 +18,7 @@ Integrating a local flake into your NixOS configuration is not that straightforw
 The key changes are:
 
 **Changes for your NixOS `flake.nix` file**
+
 1. Ensure that `codium-flake` is properly included in your `inputs`
 2. Add `specialArgs = { inherit codium-flake; };` to your `nixosConfigurations.T14` definition. This passes the `codium-flake` to your configuration modules
 
