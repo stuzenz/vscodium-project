@@ -54,8 +54,6 @@
             extensions.vscode-marketplace.dracula-theme.theme-dracula
             extensions.vscode-marketplace.yzhang.markdown-all-in-one
             extensions.vscode-marketplace.esbenp.prettier-vscode
-            extensions.vscode-marketplace.file-icons.file-icons
-            extensions.vscode-marketplace.dracula-theme.theme-dracula
             extensions.vscode-marketplace.svelte.svelte-vscode
             extensions.vscode-marketplace.golang.go
             extensions.vscode-marketplace.ms-python.python
