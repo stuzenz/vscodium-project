@@ -16,8 +16,9 @@ Integrating a local flake into your NixOS configuration is not that straightforw
 
 ## Trade offs
 
-My normal vs code is done with lots of options via home-manager. In this case I cannot use those home-manager options. If I want to have a declarative set up for a special set up it is still possible through
+My normal vs code is done with lots of options via home-manager. In this case I cannot use those home-manager options. If I want to have a declarative set up for a special set up it is still possible through creating a settings.json file declaratively. This is not covered in this project repo. There is some discussion about it here
 
+- https://github.com/nix-community/nix-vscode-extensions/issues/39
 
 The key changes are:
 
